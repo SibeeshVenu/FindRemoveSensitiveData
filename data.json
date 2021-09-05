@@ -1,0 +1,10 @@
+[
+  {
+    "Question": "a sample question 1",
+    "Answer": "This contains an email sibeesh.venu@gmail.com thus it should be removed"
+  },
+  {
+    "Question": "a sample question 2",
+    "Answer": "This contains an email sibeesh.venu@gmail.com and an IpAdress 255.255.255.255 thus it should be removed"
+  }
+]
