@@ -14,7 +14,7 @@ namespace FindRemoveSensitiveData.Helpers
         }
         public string ModifyString(string strToModify)
         {
-            var splittedArray = strToModify.Split(" ");
+            var splittedArray = strToModify?.Split(" ");
             var strBuilder = new StringBuilder();
             foreach (var arr in splittedArray)
             {

@@ -1,6 +1,5 @@
 ﻿using FindRemoveSensitiveData.Helpers;
 using System;
-using Newtonsoft.Json;
 using FindRemoveSensitiveData.Models;
 using System.Linq;
 using System.Threading.Tasks;

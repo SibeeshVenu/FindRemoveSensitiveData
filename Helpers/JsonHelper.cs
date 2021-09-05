@@ -9,7 +9,7 @@ namespace FindRemoveSensitiveData.Helpers
         public static async Task<T> ReadFileAsync<T>(string filePath)
         {
             using var stream = File.OpenRead(filePath);
-            return await JsonSerializer.DeserializeAsync<T>(stream);
+            return await JsonSerializer.DeserializeAsync<T>(stream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
         }
     }
 }
